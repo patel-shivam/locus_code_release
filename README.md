@@ -10,6 +10,11 @@ This repository is the **code release** for **LOCUS**, an attention-based method
 The rapidly growing ecosystem of Large Language Models (LLMs) makes it increasingly challenging to manage and utilize the vast and dynamic model pool effectively. We propose LOCUS, a method that produces low-dimensional vector embeddings that compactly represent a model’s capability across queries. LOCUS is an attention-based method that generates embeddings by a deterministic forward pass of an encoder model, enabling seamless incorporation of new models to the pool and refinement of existing model embeddings without having to perform any retraining. We additionally train a correctness predictor that utilizes model embeddings and query encodings to achieve state-of-the-art routing accuracy on unseen queries. Experiments show that LOCUS needs up to 4.8× fewer query evaluation samples than baselines to produce informative and robust embeddings. Moreover, the learned embedding space is geometrically meaningful: distances reflect model similarity, enabling a range of downstream applications including model comparison and clustering, model portfolio selection, and resilient proxies of unavailable models.
 
 
+<p align="center">
+  <img src="./assets/locus_diagram.png" alt="Locus Diagram" width="700">
+</p>   
+
+
 ---
 
 ## Getting started
