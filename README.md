@@ -2,7 +2,7 @@
 
 This repository is the **code release** for **LOCUS**, an attention-based method for producing low-dimensional **model capability representations** from query–model evaluation signals.
 
-## Paper
+## Paper [arXiv](https://arxiv.org/abs/2601.21082)   
 
 **Title:** *LOCUS: Low-Dimensional Model Embeddings for Efficient Model Exploration, Comparison, and Selection*. 
 
